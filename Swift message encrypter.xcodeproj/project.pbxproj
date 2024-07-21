@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8B61272C4CED0300640862 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = CD8B61262C4CED0300640862 /* Crypto */; };
+		CD8B61292C4CED0300640862 /* _CryptoExtras in Frameworks */ = {isa = PBXBuildFile; productRef = CD8B61282C4CED0300640862 /* _CryptoExtras */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8B61072C4CE92100640862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8B60EE2C4CE91F00640862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8B60F52C4CE91F00640862;
+			remoteInfo = "Swift message encrypter";
+		};
+		CD8B61112C4CE92100640862 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8B60EE2C4CE91F00640862 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8B60F52C4CE91F00640862;
+			remoteInfo = "Swift message encrypter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8B60F62C4CE91F00640862 /* Swift message encrypter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift message encrypter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8B61062C4CE92100640862 /* Swift message encrypterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift message encrypterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8B61102C4CE92100640862 /* Swift message encrypterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift message encrypterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD8B60F82C4CE91F00640862 /* Swift message encrypter */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Swift message encrypter"; sourceTree = "<group>"; };
+		CD8B61092C4CE92100640862 /* Swift message encrypterTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Swift message encrypterTests"; sourceTree = "<group>"; };
+		CD8B61132C4CE92100640862 /* Swift message encrypterUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Swift message encrypterUITests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8B60F32C4CE91F00640862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B61292C4CED0300640862 /* _CryptoExtras in Frameworks */,
+				CD8B61272C4CED0300640862 /* Crypto in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8B61032C4CE92100640862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8B610D2C4CE92100640862 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8B60ED2C4CE91F00640862 = {
+			isa = PBXGroup;
+			children = (
+				CD8B60F82C4CE91F00640862 /* Swift message encrypter */,
+				CD8B61092C4CE92100640862 /* Swift message encrypterTests */,
+				CD8B61132C4CE92100640862 /* Swift message encrypterUITests */,
+				CD8B60F72C4CE91F00640862 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8B60F72C4CE91F00640862 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B60F62C4CE91F00640862 /* Swift message encrypter.app */,
+				CD8B61062C4CE92100640862 /* Swift message encrypterTests.xctest */,
+				CD8B61102C4CE92100640862 /* Swift message encrypterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8B60F52C4CE91F00640862 /* Swift message encrypter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8B611A2C4CE92100640862 /* Build configuration list for PBXNativeTarget "Swift message encrypter" */;
+			buildPhases = (
+				CD8B60F22C4CE91F00640862 /* Sources */,
+				CD8B60F32C4CE91F00640862 /* Frameworks */,
+				CD8B60F42C4CE91F00640862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CD8B60F82C4CE91F00640862 /* Swift message encrypter */,
+			);
+			name = "Swift message encrypter";
+			packageProductDependencies = (
+				CD8B61262C4CED0300640862 /* Crypto */,
+				CD8B61282C4CED0300640862 /* _CryptoExtras */,
+			);
+			productName = "Swift message encrypter";
+			productReference = CD8B60F62C4CE91F00640862 /* Swift message encrypter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8B61052C4CE92100640862 /* Swift message encrypterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8B611D2C4CE92100640862 /* Build configuration list for PBXNativeTarget "Swift message encrypterTests" */;
+			buildPhases = (
+				CD8B61022C4CE92100640862 /* Sources */,
+				CD8B61032C4CE92100640862 /* Frameworks */,
+				CD8B61042C4CE92100640862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8B61082C4CE92100640862 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD8B61092C4CE92100640862 /* Swift message encrypterTests */,
+			);
+			name = "Swift message encrypterTests";
+			packageProductDependencies = (
+			);
+			productName = "Swift message encrypterTests";
+			productReference = CD8B61062C4CE92100640862 /* Swift message encrypterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD8B610F2C4CE92100640862 /* Swift message encrypterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8B61202C4CE92100640862 /* Build configuration list for PBXNativeTarget "Swift message encrypterUITests" */;
+			buildPhases = (
+				CD8B610C2C4CE92100640862 /* Sources */,
+				CD8B610D2C4CE92100640862 /* Frameworks */,
+				CD8B610E2C4CE92100640862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8B61122C4CE92100640862 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD8B61132C4CE92100640862 /* Swift message encrypterUITests */,
+			);
+			name = "Swift message encrypterUITests";
+			packageProductDependencies = (
+			);
+			productName = "Swift message encrypterUITests";
+			productReference = CD8B61102C4CE92100640862 /* Swift message encrypterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8B60EE2C4CE91F00640862 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CD8B60F52C4CE91F00640862 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CD8B61052C4CE92100640862 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CD8B60F52C4CE91F00640862;
+					};
+					CD8B610F2C4CE92100640862 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CD8B60F52C4CE91F00640862;
+					};
+				};
+			};
+			buildConfigurationList = CD8B60F12C4CE91F00640862 /* Build configuration list for PBXProject "Swift message encrypter" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8B60ED2C4CE91F00640862;
+			packageReferences = (
+				CD8B61252C4CED0300640862 /* XCRemoteSwiftPackageReference "swift-crypto" */,
+			);
+			productRefGroup = CD8B60F72C4CE91F00640862 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8B60F52C4CE91F00640862 /* Swift message encrypter */,
+				CD8B61052C4CE92100640862 /* Swift message encrypterTests */,
+				CD8B610F2C4CE92100640862 /* Swift message encrypterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8B60F42C4CE91F00640862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8B61042C4CE92100640862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8B610E2C4CE92100640862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8B60F22C4CE91F00640862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8B61022C4CE92100640862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8B610C2C4CE92100640862 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8B61082C4CE92100640862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8B60F52C4CE91F00640862 /* Swift message encrypter */;
+			targetProxy = CD8B61072C4CE92100640862 /* PBXContainerItemProxy */;
+		};
+		CD8B61122C4CE92100640862 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8B60F52C4CE91F00640862 /* Swift message encrypter */;
+			targetProxy = CD8B61112C4CE92100640862 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD8B61182C4CE92100640862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD8B61192C4CE92100640862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8B611B2C4CE92100640862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift message encrypter/Preview Content\"";
+				DEVELOPMENT_TEAM = YZWPQWDJKU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tetrix.Swift-message-encrypter.Swift-message-encrypter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8B611C2C4CE92100640862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swift message encrypter/Preview Content\"";
+				DEVELOPMENT_TEAM = YZWPQWDJKU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tetrix.Swift-message-encrypter.Swift-message-encrypter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD8B611E2C4CE92100640862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZWPQWDJKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tetrix.Swift-message-encrypter.Swift-message-encrypterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift message encrypter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift message encrypter";
+			};
+			name = Debug;
+		};
+		CD8B611F2C4CE92100640862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZWPQWDJKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tetrix.Swift-message-encrypter.Swift-message-encrypterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift message encrypter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swift message encrypter";
+			};
+			name = Release;
+		};
+		CD8B61212C4CE92100640862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZWPQWDJKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tetrix.Swift-message-encrypter.Swift-message-encrypterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift message encrypter";
+			};
+			name = Debug;
+		};
+		CD8B61222C4CE92100640862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YZWPQWDJKU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tetrix.Swift-message-encrypter.Swift-message-encrypterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift message encrypter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8B60F12C4CE91F00640862 /* Build configuration list for PBXProject "Swift message encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8B61182C4CE92100640862 /* Debug */,
+				CD8B61192C4CE92100640862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8B611A2C4CE92100640862 /* Build configuration list for PBXNativeTarget "Swift message encrypter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8B611B2C4CE92100640862 /* Debug */,
+				CD8B611C2C4CE92100640862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8B611D2C4CE92100640862 /* Build configuration list for PBXNativeTarget "Swift message encrypterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8B611E2C4CE92100640862 /* Debug */,
+				CD8B611F2C4CE92100640862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8B61202C4CE92100640862 /* Build configuration list for PBXNativeTarget "Swift message encrypterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8B61212C4CE92100640862 /* Debug */,
+				CD8B61222C4CE92100640862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD8B61252C4CED0300640862 /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD8B61262C4CED0300640862 /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD8B61252C4CED0300640862 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
+		};
+		CD8B61282C4CED0300640862 /* _CryptoExtras */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD8B61252C4CED0300640862 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = _CryptoExtras;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CD8B60EE2C4CE91F00640862 /* Project object */;
+}
